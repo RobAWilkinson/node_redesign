@@ -1,0 +1,325 @@
+= extend('layouts/default')
+h1 helloooo
+.row
+  .col-md-12
+    .hero
+      .hero-background
+      .hero-titles
+        .home-logo
+        h1.wordmark
+          | CODE
+          .wordmark-break
+          | SMITH
+
+        h2.center-block
+
+          .lineTwo 
+            | We Produce Elite Software Engineers.
+
+          
+
+        <form id="form3" name="form3" class="wufoo topLabel page form-inline" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://codesmith.wufoo.com/forms/q1pv37h61kidqk7/#public">
+  
+            <header id="header" class="info">
+            
+           
+            </header>
+              
+              
+              <div class="form-group learn-more">
+                <input id="Field5" name="Field5" type="email" spellcheck="false" class="field text email topForm" placeholder="cody.smith@example.com" value="" maxlength="255" tabindex="3" required />
+              </div>
+
+              <div class="form-group hide">
+                <input id="Field7" name="Field7" type="text" class="field text medium" value="wufoo-learn-more" size="8" required />
+                
+              </div>
+              
+
+              
+              
+              <div class="form-group hide">
+              
+                <label class="sr-only" for="comment">Do Not Fill This Out</label>
+                <textarea class="invArea" name="comment" id="comment" rows="1" cols="1"></textarea>
+                <input type="hidden" id="idstamp" name="idstamp" value="nyQkAZVeHVeYuS4jy+TXtNM9tvKS5YVMY9UayeHCOaA=" />
+              </div>
+
+
+
+              <div class="form-group learn-more">
+
+                <input name="saveForm" id='signupButton' class="submit btn btn-success" type="submit" value="Learn More"/>
+
+
+              </div>
+            
+          
+            </form>
+
+        .hero-buttons
+          .col-md-6.col-sm-12
+            a.btn#programButtons  href="#laacademy" 12 Week Program
+          .col-md-6.col-sm-12
+            a.btn#programButtons href="#collegeprogram" 8 Week Program
+
+     
+
+.row.overview.content-row
+  .col-md-12.col-sm-12
+    .callout Codesmith teaches talented people 
+    .callout to be great software engineers.
+    div
+      div.image-wrapper
+      div
+        p 
+          | We teach JavaScript- the language of 
+          a href="https://www.youtube.com/watch?v=zXqs6X0lzKI" modern programming
+          |  - behind everything from Gmail to 
+          a href="http://qr.ae/d7jen" Paypal
+          |  to Facebook's iPhone app Groups. 
+          br
+          | We immerse you in the latest web technologies - NodeJS, ReactJS and MongoDB, the fundamentals of Computer Science and nurture your engineering mindset. See our <a href="/program#program">curriculum</a>.
+          br
+          | You'll learn true 
+          a href="/faq#reactjs-native" mobile development with JavaScript 
+          | (the first students in the world to do so).
+    div
+      div.image-wrapper
+      p 
+        | You'll learn from a team of instructors that are behind many of the tools you'll use as a software engineer, top Hacker News and have over 10,000 hours of instruction experience between them.
+    div
+      div.image-wrapper
+      p 
+        | The 
+        a href="#collegeprogram" 8 week Summer program 
+        | begins June 29 and includes includes students from UCLA, Duke, and Penn. 
+        a href="#laacademy" The 12 week Professional program
+        |  has commencement dates of June 29 and August 17. 
+        a href="/apply" Apply now.
+        a name="signup"
+
+
+
+.row.javascript-fasttrack.content-row
+  .col-md-8.col-sm-12
+    .callout2 Get access to the Codesmith Syllabus PDF
+    p 
+      | Sign up to get the 
+      span.em course syllabus 
+      | and to keep up to date with Codesmith
+    .row
+      <form action="//codesmith.us10.list-manage.com/subscribe/post?u=da60d9c5e75cbb19470ec4fa6&amp;id=da32c400e8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      .col-md-4.col-sm-12.formelement.mc-field-group
+        label.formLabel for="mce-FNAME" First Name
+        input type="text" value="" name="FNAME" class="" id="mce-FNAME"
+      .col-md-4.col-sm-12.formelement.mc-field-group
+        label.formLabel for="mce-EMAIL" Email Address
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div>
+        <input style="position: absolute; left: -5000px;" type="text" name="b_da60d9c5e75cbb19470ec4fa6_da32c400e8" tabindex="-1" value="">
+        </div>
+      .col-md-4.col-sm-12.formelement
+        <div class="clear">
+          input.btn type="submit" value="SEND CURRICULUM" name="subscribe" id="mc-embedded-subscribe" class="button"
+        </div>
+      </form>
+  .col-md-4.col-sm-12
+    div.image-wrapper
+
+.row.content-header
+  .col-md-12.col-sm-12
+    h1 WHAT MAKES CODESMITH UNIQUE?
+  
+.row.codesmith-values.top.content-row
+  .col-md-4.col-sm-12
+    h3 BRILLIANT TEACHERS
+    p 
+      | Our curriculum team literally created some of the frameworks you'll use as software engineers every day 
+      a href="http://www.mongodb.com/profile/nuri-halperin" Nuri (Mongodb)
+      | , 
+      a href="http://icecomm.io" Will & Alex (Icecomm)
+      | . They've run engineering teams that serve millions of users and have accumulated 10,000 hours of teaching between them.
+  .col-md-4.col-sm-12
+    h3 FULLSTACK EDUCATION
+    p 
+      |We teach computer science and full stack development in JavaScript - the language of the modern web 
+      a href="https://www.youtube.com/watch?v=zXqs6X0lzKI"
+      |. You'll learn NodeJS/Express on the backend and ReactJS and AngularJS on the frontend.
+  .col-md-4.col-sm-12
+    h3 LEARN THROUGH BUILDING
+    p 
+      | We help you   
+      em build to learn 
+      | not just 
+      em learn to code
+      | . Working in pairs you’ll face challenging projects where you’ll need to hunt out the answer (with the total support of our Engineers In Residence - 1 for every 4 students). Lectures provide an incredible baseline and are taught by masters in their fields
+
+.row.codesmith-values.bottom.content-row
+  .col-md-4.col-sm-12.image-panel
+  .col-md-4.col-sm-12
+    h3 COMMUNITY FOR LIFE
+    p 
+      | Attending Codesmith is a focused engineering experience but it's also about welcoming you into a community of creative and technical people who become lifelong allies. 
+      br
+      | Every graduate has life-time access to our co-working space at our LA HQ (it even has a bar).
+  .col-md-4.col-sm-12
+    h3 MOBILE DEVELOPMENT
+    p 
+      | Learn the fundamentals of mobile development - hardware performance, networking and native features
+      br
+      | With Facebook's transformative new framework ReactJS, you'll also be the first students in the world to build full-powered 
+      a href="http://www.webdesignerdepot.com/2015/03/facebookss-react-native-radically-simplifies-app-development/" mobile apps with JavaScript. 
+  
+
+.row.content-header
+  .col-md-12.col-sm-12
+    h1 OUR PROGRAMS
+    a name="laacademy"
+
+.row.our-programs.top.content-row
+  .col-md-12.col-sm-12
+    h2 12 WEEK PROFESSIONAL PROGRAM 
+  .col-md-4.col-sm-12
+    h3 PLAYA VISTA TECH HUB
+    p 
+      | We're at the heart of the new technology hub in LA - Playa Vista 
+      a href = "http://www.latimes.com/business/la-fi-silicon-valley-south-20150118-story.html#page=1" (LA Times)
+      |  - right next door to Google's new Southern California HQ.
+  .col-md-4.col-sm-12
+    h3 EXTRAORDINARY HIRING NETWORK
+    p In the final week of the program you'll present at a Recruitment Day where 20-30 companies visit Codesmith to meet and interview grads - you'll interview with 10 different hiring teams in just that first day.
+  .col-md-4.col-sm-12
+    h3 PRODUCTION PROJECTS
+    p Whether you choose to work on your own project or with a partner company, you'll be building production-level apps before the end of the program - and if you do work with a partner company you have the chance to work on products used by millions.
+  .col-md-12.col-sm-12
+    h3 GETTING STARTED
+    p 
+      | A new class starts every 12 weeks - the next class begins June 29. Download the 
+      a href="/#signup" course pack 
+      | or 
+      a href="/apply" Apply now.
+  .col-md-12.col-sm-12
+    <form id="form3" name="form3" class="wufoo page form-inline" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://codesmith.wufoo.com/forms/q1pv37h61kidqk7/#public">
+  
+            <header id="header" class="info">
+            <h3>Enter for updates on upcoming classes</h3>
+            
+            </header>
+
+              
+              
+              <div class="form-group learn-more">
+                <input id="Field5" name="Field5" type="email" spellcheck="false" class="field text email" placeholder="email" value="" maxlength="255" tabindex="3"       required />
+              </div>
+
+              <div class="form-group hide">
+                <input id="Field7" name="Field7" type="text" class="field text medium" value="wufoo-keep-me-updated" size="8" required />
+              </div>
+              
+
+              
+              
+              <div class="form-group hide">
+              
+                <label class="sr-only" for="comment">Do Not Fill This Out</label>
+                <textarea class="invArea" name="comment" id="comment" rows="1" cols="1"></textarea>
+                <input type="hidden" id="idstamp" name="idstamp" value="nyQkAZVeHVeYuS4jy+TXtNM9tvKS5YVMY9UayeHCOaA=" />
+              </div>
+
+              <div class="form-group learn-more">
+
+
+                <input name="saveForm" id="keepMeUpdated" class="submit btn form" type="submit" value="Keep me updated"/>
+
+              </div>
+            
+            </form>
+    a name="collegeprogram"
+    hr
+  .col-md-12.col-sm-12.codesmith-college
+    h2 8 WEEK SUMMER PROGRAM
+  .col-md-12.col-sm-12
+    p The 8 week Summer program is designed for determined college students who want to build incredible production-level apps, graduate with the tools and portfolio of projects to land the very best roles in tech, or even launch their own ventures.
+    p 
+      | You'll be part of the most extraordinary class you'll ever take - a group of CS majors, MBAs, and Biochemical Engineers all learning modern software engineering.
+    p
+      a href= "/apply" Apply here 
+    hr
+.row.our-programs.accelerator.non-top.content-row
+  .col-md-12.col-sm-12.codesmith-college
+    h2 4 Week Coding Accelerator (Evenings and Weekends)
+  .col-md-12.col-sm-12
+    .summary 
+      p Beginner level course: The Fundamentals of Front-end web development. The Codesmith Software Engineering Accelerator takes you from an <span class="underline">initial curiosity with coding</span> to the <span class="underline">ability to build full apps</span>
+    p You'll be introduced to the unique Codesmith approach of Learning by Building. There's no better way to accelerate your coding abilities
+    ol
+      li Concept Lectures - We give you a conceptual model of core programming concepts and connect it to code
+      li Learn programming by programming - You will build projects and complete challenges to help you develop as a coder for life, not just 4 weeks
+      li Engineers in Residence - You'll have the total support of our Engineers in Residence (EIRs). When you hit a learning block, you can expect support with your coding in under 5 minutes
+  .col-md-6.col-sm-12
+    p You'll learn software engineering fundamentals by building projects, not by watching tutorials. You'll build projects including:
+    ul
+      li A YouTube app
+      li An anonymous video chat app
+      li Snake and Pacman games
+      li A mobile optimized version of Instagram
+    p You have:
+    ul
+      li a desire to experiment and build things (maybe you loved lego as a kid - or still do)
+      li a curiosity with coding and web development
+      li the need to direct your own career path
+  .col-md-6.col-sm-12
+    
+.row.our-programs.non-top.content-row  
+  .col-md-3.col-sm-12
+    h3 Software engineering fundamentals
+    p Learn the fundamentals of programming in JavaScript. We'll cover variables, operators, functions, Objects, arrrays, loops, conditionals and even callbacks and higher order functions - all the skills and techniques to program effectively
+  .col-md-3.col-sm-12
+    h3 JavaScript for building websites and apps
+    p By building apps you'll learn how to create and change elements on the page using basic JavaScript and jQuery. You'll get live data from a server API and even add video chat to  your site
+  .col-md-3.col-sm-12
+    h3 HTML5 and CSS3
+    p Transform your site with HTML5 video, canvas elements as well as HTML fundamentals including tags, links, layout. Learn to build responsive sites using CSS3 including selectors, classes and media queries. Add animations with CSS3 animations
+  .col-md-3.col-sm-12
+    h3 Software engineer tools
+    p Learn how to use Git, Github and the core tools used by software engineers to 'deploy' your applications online
+.row.our-programs.non-top.content-row
+  .col-md-6.col-sm-12.summary
+    p Program times: Monday - Thursday - 6:30-9pm, Saturday - TBD. 
+    p You need to have your own Mac/Windows/Linux laptop and a WiFi connection at home
+  .col-md-6.col-sm-12
+    a.btn.signup href="/apply" Accelerator Signup
+
+.row.content-header
+  .col-md-12.col-sm-12
+    h1 WHO WE TEACH
+
+.row.our-students.content-row
+  .col-md-3.col-sm-12
+    h3 DETERMINED AND AMBITIOUS
+    p You're ready to focus completely on learning to code and prepared to work with your cohort to achieve things you never thought possible before you started the program.
+  .col-md-3.col-sm-12
+    h3 GREAT PEOPLE
+    p We're building a community of good people who will become empathetic engineers. You get a kick out of the idea of pair programming - working with other students to learn faster than you ever could alone.
+  .col-md-3.col-sm-12
+    h3 LOVE LEARNING
+    p Nothing excites you more than the thought of how many new things you'll come to understand over the 8 weeks program and following academic year with Codesmith.
+  .col-md-3.col-sm-12
+    h3 BUILDERS
+    p 
+      | Whether you've been trying to learn software engineering for years, are majoring in CS or have only 
+      a href="engineering.mit.edu/ask/what-do-legos-have-do-engineering" built with Legos 
+      | - you love building things and/or 
+      a href="http://www.quora.com/When-have-you-most-successfully-hacked-some-non-computer-system-to-your-advantage" hacking systems in interesting ways. 
+
+.row.apply.content-row
+  .col-md-12.col-sm-12
+    .callout Apply to Codesmith
+    p 
+    a.btn#applyColor href="/apply" APPLY NOW
+

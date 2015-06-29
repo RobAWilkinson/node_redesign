@@ -1,0 +1,8 @@
+doctype html
+html
+  head
+    = content('head')
+  body
+    h1 this is in the layout
+    = content()
+    = content('footer')

@@ -1,0 +1,15 @@
+{
+  "name": "CodeSmith.io site redesign",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^7.0",
+    "slm": "^0.1.5"
+  }
+}
